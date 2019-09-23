@@ -1,0 +1,6 @@
+set -e
+
+mkdir -p $ProgramData/Nudge/azurite
+
+docker-compose build
+docker-compose up -d
